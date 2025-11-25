@@ -1,4 +1,4 @@
-const API = "http://localhost:3000";
+const API = "https://todorank.onrender.com";
 
 // Adicionar tarefa
 document.getElementById("addBtn").addEventListener("click", async () => {
@@ -69,3 +69,4 @@ async function completeTask(id) {
 
 // Iniciar carregamento da lista
 loadTasks();
+
